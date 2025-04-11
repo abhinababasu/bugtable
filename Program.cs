@@ -104,7 +104,14 @@ namespace MyApp
             else
             {
                 Console.WriteLine($"Failed to fetch workitem {workitem}. Status Code: {response.StatusCode}");
-                return null;
+                return new Workitem
+                {
+                    Id = workitem,
+                    Title = "Error",
+                    AssignedTo = "Error",
+                    State = "Error",
+                    BugUrl = bugUrl ?? "Unknown"
+                };
             }
         }
     }
