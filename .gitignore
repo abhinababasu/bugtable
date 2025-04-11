@@ -1,0 +1,55 @@
+## Ignore build results
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Rider
+.idea/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+
+## Logs
+*.log
+
+## DotCover
+*.dotCover
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Auto-generated files
+Generated_Code/
+
+## .NET Core
+project.assets.json
+project.*.json
+*.deps.json
+*.runtimeconfig.json
+
+## Others
+TestResults/
+*.vspscc
+*.vssscc
+.vs/
+foo.txt
+workitems.html
+
+# Temporary files
+~$*
